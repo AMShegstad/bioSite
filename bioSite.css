@@ -53,6 +53,7 @@ body {
     grid-row: 1/3;
 }
 
+/* Styling for the wrapper class with which I implement css grid */
 .wrapper > div{
     background: #3b5e8c;
 }
@@ -71,6 +72,7 @@ h1, p {
     text-align: center;
 }
 
+/* Styling for the central div with links to the other pages */
 #links {
     padding-top: 50%;
     padding-bottom: 40%;
@@ -85,8 +87,10 @@ a:visited {
     color: red;
 }
 
+/* Using divs to store all images, so this makes all my pictures fit correctly*/
 img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
 }
+
