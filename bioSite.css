@@ -41,6 +41,10 @@ body {font-family: 'Ubuntu', sans-serif;;}
   }
 }
 
+.navbar > a {
+    font-size: large;
+}
+
 a:hover {
     color: #BFAE5A;
 }
