@@ -41,6 +41,14 @@ body {font-family: 'Ubuntu', sans-serif;;}
   }
 }
 
+a:hover {
+    color: #BFAE5A;
+}
+
+a:visited {
+    color: #F26241;
+}
+
 /* Working on the Landing Page */
 
 .header {
@@ -146,21 +154,6 @@ body {font-family: 'Ubuntu', sans-serif;;}
 }
 */
 
-/* Styling for the central div with links to the other pages */
-#links {
-    padding-top: 50%;
-    padding-bottom: 40%;
-    text-align: center;
-}
-
-a:hover {
-    color: #BFAE5A;
-}
-
-a:visited {
-    color: #F26241;
-}
-
 /* Using divs to store all images, so this makes all my pictures fit correctly*/
 img {
     max-width: 100%;
@@ -186,7 +179,12 @@ which was how the interview was actually conducted.
 
 #aboutTitle > h1 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 15px;
+}
+
+#aboutParagraph {
+    padding-left: 11%;
+    padding-right: 11%;
 }
 
 .question {
@@ -198,8 +196,10 @@ which was how the interview was actually conducted.
 }
 
 .question > h1 {
-    display: contents;
+    display: inline;
     grid-column: 1/2;
+    width: 100%;
+    height: auto;
     align-content: flex-start;
 }
 
@@ -210,7 +210,7 @@ which was how the interview was actually conducted.
 
 .answer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column: 5/9;
     border: 15px;
     border-radius: 15px;
@@ -221,7 +221,8 @@ which was how the interview was actually conducted.
     display: inline;
     grid-column: 1/2;
     width: 100%;
-    height:auto;
+    height: auto;
+    align-content: flex-start;
 }
 
 .answer > p {
