@@ -66,10 +66,10 @@ body {font-family: 'Ubuntu', sans-serif;;}
     grid-row: 1/3;
 }
 
-#IntroDivText {
-    grid-column: 3/8;
+.introDivText {
+    grid-column: 3/10;
     grid-row: 1/2;
-    Justify-content: center;
+    align-content: center;
 }
 
 .card-list {
@@ -154,11 +154,11 @@ body {font-family: 'Ubuntu', sans-serif;;}
 }
 
 a:hover {
-    color: white;
+    color: #BFAE5A;
 }
 
 a:visited {
-    color: red;
+    color: #F26241;
 }
 
 /* Using divs to store all images, so this makes all my pictures fit correctly*/
@@ -169,10 +169,13 @@ img {
 }
 
 /* 
-AboutHaley.html
+HaleyInterview.html
 
 Q & A from my interview with Haley
 to be included in the AboutHaley.html page
+
+The goal was to make the conversation resemble back-and-forth text messages,
+which was how the interview was actually conducted.
 */
 
 #aboutTitle {
