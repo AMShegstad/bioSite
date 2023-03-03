@@ -134,6 +134,11 @@ a:visited {
     object-fit: fit ;
 }
 
+figcaption {
+    padding-top: 10px;
+    color: white;
+}
+
 /* Styling for the wrapper class with which I implement css grid */
 .wrapper > div{
     background: #3b5e8c;
@@ -193,8 +198,8 @@ which was how the interview was actually conducted.
 
 .question {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column: 2/6;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column: 3/6;
     border: 15px;
     border-radius: 15px;
 }
@@ -208,14 +213,15 @@ which was how the interview was actually conducted.
 }
 
 .question > p {
-    grid-column: 2/3;
+    grid-column: 2/8;
     float: left;
+    font-size: 16pt;
 }
 
 .answer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column: 5/9;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column: 5/8;
     border: 15px;
     border-radius: 15px;
     border-color: black;
@@ -232,7 +238,10 @@ which was how the interview was actually conducted.
 .answer > p {
     width: 100%;
     height: 100%;
-    grid-column: 2/4;
+    grid-column: 2/8;
+    font-size: 16pt;
+    padding: 5px;
+
 }
 
 #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10 {
